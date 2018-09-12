@@ -148,6 +148,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JcropController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -158,6 +159,15 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\Jcrop.gif" />
+    <Content Include="css\jquery.Jcrop.css" />
+    <Content Include="css\jquery.Jcrop.min.css" />
+    <Content Include="demo_files\demos.css" />
+    <Content Include="demo_files\main.css" />
+    <Content Include="demo_files\pool.jpg" />
+    <Content Include="demo_files\sago.jpg" />
+    <Content Include="demo_files\sagomod.jpg" />
+    <Content Include="demo_files\sagomod.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -167,12 +177,18 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="demo_files\Thumbs.db" />
+    <Content Include="css\Thumbs.db" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.color.js" />
+    <Content Include="Scripts\jquery.Jcrop.js" />
+    <Content Include="Scripts\jquery.Jcrop.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -192,6 +208,13 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Jcrop\Index.cshtml" />
+    <Content Include="Views\Jcrop\tutorial1.cshtml" />
+    <Content Include="Views\Jcrop\tutorial2.cshtml" />
+    <Content Include="Views\Jcrop\tutorial3.cshtml" />
+    <Content Include="Views\Jcrop\tutorial4.cshtml" />
+    <Content Include="Views\Jcrop\tutorial5.cshtml" />
+    <Content Include="Views\Jcrop\ImgCrop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
